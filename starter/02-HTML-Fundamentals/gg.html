@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Div, Block, Inline, Span Example</title>
+    <style>
+      /* CSS to style the elements */
+      .block {
+        background-color: lightblue;
+        border: 2px solid blue;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      .inline {
+        background-color: lightgreen;
+        border: 2px solid green;
+        padding: 5px;
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Example of div (block-level element) -->
+    <div class="block">This is a block-level element (div).</div>
+
+    <!-- Example of span (inline element) -->
+    <p>
+      This is a paragraph containing both inline and block elements.
+      <span class="inline">This is an inline element (span).</span>
+      This is more text.
+    </p>
+
+    <!-- Example of span (inline element) within a div (block-level element) -->
+    <div class="block">
+      This is a block-level element (div) containing an inline element (span):
+      <span class="inline">This is an inline element (span).</span>
+    </div>
+  </body>
+</html>
